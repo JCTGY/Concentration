@@ -14,6 +14,8 @@
 		329CFF6E2335D86B00F1B37B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 329CFF6C2335D86B00F1B37B /* LaunchScreen.storyboard */; };
 		329CFF792335D86B00F1B37B /* ConcentrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329CFF782335D86B00F1B37B /* ConcentrationTests.swift */; };
 		329CFF842335D86B00F1B37B /* ConcentrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329CFF832335D86B00F1B37B /* ConcentrationUITests.swift */; };
+		357BC056233BDC2D005DA815 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357BC055233BDC2D005DA815 /* Concentration.swift */; };
+		357BC058233BDCE6005DA815 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357BC057233BDCE6005DA815 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		329CFF7F2335D86B00F1B37B /* ConcentrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConcentrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		329CFF832335D86B00F1B37B /* ConcentrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationUITests.swift; sourceTree = "<group>"; };
 		329CFF852335D86B00F1B37B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		357BC055233BDC2D005DA815 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		357BC057233BDCE6005DA815 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 				329CFF672335D86900F1B37B /* Main.storyboard */,
 				329CFF912335D9F000F1B37B /* Supporting File */,
 				329CFF6F2335D86B00F1B37B /* Info.plist */,
+				357BC055233BDC2D005DA815 /* Concentration.swift */,
+				357BC057233BDCE6005DA815 /* Card.swift */,
 			);
 			path = Concentration;
 			sourceTree = "<group>";
@@ -201,13 +207,16 @@
 				TargetAttributes = {
 					329CFF5F2335D86900F1B37B = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1100;
 					};
 					329CFF732335D86B00F1B37B = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1100;
 						TestTargetID = 329CFF5F2335D86900F1B37B;
 					};
 					329CFF7E2335D86B00F1B37B = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1100;
 						TestTargetID = 329CFF5F2335D86900F1B37B;
 					};
 				};
@@ -266,6 +275,8 @@
 			files = (
 				329CFF662335D86900F1B37B /* ViewController.swift in Sources */,
 				329CFF642335D86900F1B37B /* AppDelegate.swift in Sources */,
+				357BC056233BDC2D005DA815 /* Concentration.swift in Sources */,
+				357BC058233BDCE6005DA815 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,7 +458,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = JCTGY.Concentration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -465,7 +476,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = JCTGY.Concentration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -485,7 +496,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = JCTGY.ConcentrationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Concentration.app/Concentration";
 			};
@@ -506,7 +517,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = JCTGY.ConcentrationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Concentration.app/Concentration";
 			};
@@ -526,7 +537,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = JCTGY.ConcentrationUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Concentration;
 			};
@@ -546,7 +557,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = JCTGY.ConcentrationUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Concentration;
 			};
